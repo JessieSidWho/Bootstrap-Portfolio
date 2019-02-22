@@ -8,51 +8,81 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<nav class="navbar">
-    <div class="myname">
-        <h1>Jessie Sidhu</h1>
-    </div>
-    
-    <div class="pages">  
-      <p><a href="index.html">About</a>  
-            |    <a href="portfolio.html">Portfolio</a>  
-            |    <a href="contact.html">Contact</a></p>
-    </div>
+<nav class="navbar bg-light position-relative mw-100 p-0">
 
-  </nav>
 
-<body>
+
+        <div class="col-md-2  bg-info p-auto text-center offset-md-2">
+          <a class="navbar-brand text-white pt-2 pb-2 mb-0 mt-0" href="#">Jessie Sidhu</a>
+        </div>
+
+
+        <div class="col-md-3 offset-md-3 text-center" >
+
+          <p class="align-middle pt-2 text-muted"><a class="text-muted" href="index.html">About</a>  
+           |  <a class="text-muted" href="portfolio.html">Portfolio</a>  
+           |  <a class="text-muted" href="contact.html">Contact</a>
+          </p>
+
+        </div>
+
+        <div class="col-md-2 ">
+
+        </div>
+
+    </nav>
+
+<body class="container-fluid" style="background-image: url(images/leaves.png);">
   
-  <section class="information">
+    <div class="row mt-5">
 
-      <h1 class="about">Contact</h1>
+    <section class="col-md-8 border border-secondary offset-md-2 mb-4 pb-4 bg-white">
+      
+            <div class="border-bottom border-dark ml-3 mr-3 mt-3 pl-3 pb-2">
+                <h3>About Me</h3>
+             </div>
 
       
-     <div class="description">
-        <div class="field">
-            <label for="name">Name</label>
-            <p><input type="text" id="name" placeholder="i.e. John Smith" name="Name"/></p>
-        </div>
-        <div class="field">
-            <label for="email">Email</label>
-            <p><input type="text" id="email" placeholder="example@gmail.com" name="email"/></p>
-        </div>
-        <div class="field">
-            <label for="message">Message</label>
-            <p><textarea class="messageBox">
+       <div class="row">
 
-            </textarea></p>
-            <button class="btn">Submit</button>
+            <div class="col-md-12 pt-2 pb-0 ml-4">
+              <label for="name">Name</label>
+              <p><input class="pl-1 pr-6" type="text" id="name" placeholder="i.e. John Smith" name="Name"/></p>
+            </div>
+
         </div>
-     
 
-      </div>  
+        <div class="row">
 
-  </section>
+            <div class="col-md-12 pt-2 pb-0 ml-4">
+              <label for="email">Email</label>
+              <p><input class="pl-1 pr-6" type="text" id="email" placeholder="example@gmail.com" name="email"/></p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="form-group col-md-11 pt-2 pb-0 ml-4">
+              <label for="exampleFormControlTextarea1">Message</label>
+
+              <textarea class="form-control mb-3 mr-0" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+              <button type="button" class="btn btn-info">Submit</button>
+
+            </div>
+        </div>       
+
+    </section>
+
+    </div>
   
-  <footer>
-          www.JessieSidWho.com
-  </footer>
+  <div class="row">
+
+        <footer class="col-md-12 mt-4 footer fixed-bottom text-center border-top border-info bg-secondary" >
+              <p class="align-bottom text-light mt-2">www.JessieSidWho.com</p>
+        </footer>
+  
+      </div>
 
 </body>
 
